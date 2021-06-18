@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.jumbotron {
+  background-color: white;
+  font-family: Poppins, "serif";
+  margin: 0;
+  padding: 2%;
+  background-image: linear-gradient(45deg, white, white, rgb(42, 240, 42));
+  height: 70vh;
+  border-radius: none;
+}
+
+.jumbotron p {
+  max-width: 100%;
+  font-size: 7vh;
+  font-weight: 500;
+  margin: 3%;
+  margin-top: 20%;
+  padding: 0;
+}
+.green-text {
+  color: #0a720a;
+  font-weight: 500;
+  /* -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black; */
+}
+.first-illustration {
+  width: 100%;
+  margin-top: 10%;
+}
+.second-jumbotron {
+  background-color: white;
+  font-family: Poppins, "serif";
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(45deg, white, white, rgb(255, 255, 255));
+  min-height: calc(100vh - 80px);
+}
+.second-jumbotron p {
+  max-width: 75%;
+  font-size: 7.5vh;
+  font-weight: 500;
+  margin: 4%;
+  margin-top: 20%;
+  padding: 0;
+}
+.second-illustration {
+  width: 90%;
+  margin-top: 10%;
+}
+@media only screen and (max-width: 1024px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .jumbotron {
+    background-color: white;
+    font-family: Poppins, "serif";
+    margin: 0;
+    padding: 2%;
+    background-image: linear-gradient(-45deg, white, white, rgb(42, 240, 42));
+    height: 50%;
+  }
+  
+  .jumbotron p {
+    max-width: 100%;
+    font-size: 7vh;
+    font-weight: 500;
+    
+    margin-top: 10%;
+    padding: 0;
+  }
+  .green-text {
+    color: #0a720a;
+    font-weight: 500;
+    /* -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black; */
+  }
+  .first-illustration {
+    width: 80%;
+    margin-top: 20%;
+  }
+  .second-jumbotron {
+    background-color: white;
+    font-family: Poppins, "serif";
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(90deg, white, white, rgb(255, 255, 255));
+    min-height: calc(100vh - 80px);
+  }
+  .second-jumbotron p {
+    max-width: 75%;
+    font-size: 7.5vh;
+    font-weight: 500;
+    margin: 4%;
+    margin-top: 20%;
+    padding: 0;
+  }
+  .second-illustration {
+    width: 90%;
+    margin-top: 10%;
+  }
+  
+}
+
+
+@media only screen and (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .jumbotron {
+    background-color: white;
+    font-family: Poppins, "serif";
+    margin: 0;
+    padding: 2%;
+    background-image: linear-gradient(-45deg, white, white, rgb(42, 240, 42));
+    height: 50%;
+  }
+  
+  .jumbotron p {
+    max-width: 100%;
+    font-size: 7.5vh;
+    font-weight: 500;
+    
+    margin-top: 10%;
+    padding: 0;
+  }
+  .green-text {
+    color: #0a720a;
+    font-weight: 500;
+    /* -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black; */
+  }
+  .first-illustration {
+    width: 80%;
+    margin-top: 20%;
+  }
+  .second-jumbotron {
+    background-color: white;
+    font-family: Poppins, "serif";
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(90deg, white, white, rgb(255, 255, 255));
+    min-height: calc(100vh - 80px);
+  }
+  .second-jumbotron p {
+    max-width: 75%;
+    font-size: 7.5vh;
+    font-weight: 500;
+    margin: 4%;
+    margin-top: 20%;
+    padding: 0;
+  }
+  .second-illustration {
+    width: 90%;
+    margin-top: 10%;
+  }
+  
+}
+
+@media only screen and (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .jumbotron {
+    background-color: white;
+    font-family: Poppins, "serif";
+    margin: 0;
+    padding: 2%;
+    background-image: linear-gradient(-45deg, white, white, rgb(42, 240, 42));
+    height: 50%;
+  }
+  
+  .jumbotron p {
+    max-width: 100%;
+    font-size: 5vh;
+    font-weight: 500;
+    text-align: none;
+    margin-top: 10%;
+    padding: 0;
+  }
+  .green-text {
+    color: #0a720a;
+    font-weight: 500;
+    /* -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black; */
+  }
+  .first-illustration {
+    width: 100%;
+    margin-top: 20%;
+  }
+  .second-jumbotron {
+    
+    font-family: Poppins, "serif";
+    margin: 0;
+    padding: 0;
+    background:#24e024;
+    min-height: calc(100vh - 80px);
+  }
+  .second-jumbotron p {
+    max-width: 75%;
+    font-size: 7.5vh;
+    font-weight: 500;
+    margin: 4%;
+    margin-top: 20%;
+    padding: 0;
+  }
+  .second-illustration {
+    width: 90%;
+    margin-top: 10%;
+  }
+  
+}
